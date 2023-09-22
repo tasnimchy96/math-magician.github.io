@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# :green_book: Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [:book: About the Project](#about-project)
+  - [:hammer_and_wrench: Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [:computer: Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Project-Presentation](#project-presentation)
+  - [Live-Demo](#live-demo)
+- [:busts_in_silhouette: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Available Scripts
+# :book: [Math-Magician]
 
-In the project directory, you can run:
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-### `npm start`
+- Make simple calculations.
+- Read a random math-related quote.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :hammer_and_wrench: Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack
 
-### `npm test`
+**Client**
+HTML, CSS, Javascript and React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features
 
-### `npm run build`
+- **[- Use Javascript & CSS linters]**
+- **[- Build a basic website that allows users to make simple calculations.]**
+- **[- Used React.]**
+- **[-  User can read a random math-related quote..]**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :computer: Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+In order to run this project you need a web browser, node, npm and an IDE like VS Code should be installed in your computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open Terminal & Clone this repository to your desired folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+cd <path-to-the-folder>
+git clone https://github.com/tasnimchy96/math-magician.github.io.git
+cd Leaderboard-App.github.io.git
+code .
+```
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install this project using the cloned repo or download and use the files to your local machine.
 
-## Learn More
+```sh
+cd <path-to-the-cloned-repo>
+code .
+```
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project open the index.html file in your web browser or you can also open live server from the IDE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run tests
 
-### Code Splitting
+No test are available
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Project-Presentation
+- We will add it later.
 
-### Analyzing the Bundle Size
+### :rocket: Live-Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Live-Demo]()
 
-### Making a Progressive Web App
+## :busts_in_silhouette: Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+:bust_in_silhouette: **Tasnim Ahmed Chowdhury**
 
-### Advanced Configuration
+- GitHub: [@tasnimchy96](https://github.com/tasnimchy96)
+- Twitter:[@tasnimchy96](https://twitter.com/tasnimchy96)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## :telescope: Future Features
 
-### Deployment
+- [ ] **[Make an atractive Layout]**
+- [ ] **[Add some Javascript]**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## :handshake: Contributing
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :star:️ Show your support
+
+If you like this project feel free to share with your friends.
+
+## :pray: Acknowledgments
+
+I would like to thank Microverse for this amazing exercise.
+
+## 📝 License <a name="license"></a>
+This project is [MIT](./LICENSE.md) licensed.
