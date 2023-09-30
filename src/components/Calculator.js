@@ -1,6 +1,6 @@
 import React from 'react';
 
-const keyMapping = [
+const keys = [
   {
     AC: {
       type: 'Clear',
@@ -108,11 +108,11 @@ const keyMapping = [
   },
 ];
 
-const mappedData = keyMapping.map((data) => Object.entries(data)[0]);
+const mappedKey = keys.map((key) => Object.entries(key)[0]);
 
 const getButtonClassName = ({ value }) => {
   let className = '';
-  if (value.type) className += 'border border-solid border-gray-400';
+  if (value) className += 'border border-solid border-gray-400';
   if (value.colorType === 'Orange') className += 'border-2 border-solid border-gray-400 bg-amber-600';
   return className;
 };
@@ -125,7 +125,7 @@ const Header = () => (
 
 const Body = () => (
   <div className="flex-grow grid grid-cols-4 text-black font-bold text-3xl">
-    {mappedData.map(([key, value]) => (
+    {mappedKey.map(([key, value]) => (
       <button
         type="button"
         key={key}
