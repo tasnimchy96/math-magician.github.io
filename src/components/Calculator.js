@@ -119,8 +119,7 @@ const getButtonClassName = ({ value }) => {
 
 const Header = () => (
   <header className="text-right text-white text-3xl p-8 bg-gray-500 font-bold">
-    <div>10*4</div>
-    <div>40</div>
+    <div>0</div>
   </header>
 );
 
